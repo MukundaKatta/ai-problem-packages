@@ -1,0 +1,2 @@
+{"name":"@mukundakatta/llm-cost-guard","version":"0.1.0","description":"Estimate AI request cost and enforce per-request or session budgets.","type":"module","exports":"./src/index.js","files":["src","README.md"],"license":"MIT","keywords":["ai","llm","cost","budget","tokens"]}
+

@@ -1,0 +1,2 @@
+{"name":"@mukundakatta/tool-call-contracts","version":"0.1.0","description":"Validate LLM tool-call payloads with small JSON-like contracts.","type":"module","exports":"./src/index.js","files":["src","README.md"],"license":"MIT","keywords":["ai","agents","tools","validation","schema"]}
+

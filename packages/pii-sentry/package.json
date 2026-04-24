@@ -1,0 +1,2 @@
+{"name":"@mukundakatta/pii-sentry","version":"0.1.0","description":"Detect and redact PII and secret-like values before AI processing.","type":"module","exports":"./src/index.js","files":["src","README.md"],"license":"MIT","keywords":["ai","pii","redaction","privacy","security"]}
+

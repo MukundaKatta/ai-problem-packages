@@ -1,0 +1,11 @@
+{
+  "name": "ai-problem-packages",
+  "private": true,
+  "type": "module",
+  "workspaces": ["packages/*"],
+  "scripts": {
+    "test": "node --test",
+    "pack:check": "npm pack --workspaces --dry-run"
+  }
+}
+

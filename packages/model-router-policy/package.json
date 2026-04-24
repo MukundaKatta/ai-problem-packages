@@ -1,0 +1,2 @@
+{"name":"@mukundakatta/model-router-policy","version":"0.1.0","description":"Policy-based model routing by capability, cost, latency, and privacy.","type":"module","exports":"./src/index.js","files":["src","README.md"],"license":"MIT","keywords":["ai","llm","routing","cost","policy"]}
+

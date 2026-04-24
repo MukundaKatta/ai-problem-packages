@@ -1,0 +1,2 @@
+{"name":"@mukundakatta/semantic-cache-key","version":"0.1.0","description":"Stable semantic cache keys for AI prompts, tools, models, and retrieval context.","type":"module","exports":"./src/index.js","files":["src","README.md"],"license":"MIT","keywords":["ai","llm","cache","semantic-cache","prompts"]}
+

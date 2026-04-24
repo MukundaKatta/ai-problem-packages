@@ -1,0 +1,2 @@
+{"name":"@mukundakatta/prompt-injection-shield","version":"0.1.0","description":"Prompt-injection risk scanner for untrusted AI context.","type":"module","exports":"./src/index.js","files":["src","README.md"],"license":"MIT","keywords":["ai","llm","prompt-injection","security"]}
+

@@ -1,0 +1,2 @@
+{"name":"@mukundakatta/agent-trajectory-replay","version":"0.1.0","description":"Replay and diff AI agent event trajectories for debugging regressions.","type":"module","exports":"./src/index.js","files":["src","README.md"],"license":"MIT","keywords":["ai","agents","trajectory","debugging","replay"]}
+
