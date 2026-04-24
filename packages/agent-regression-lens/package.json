@@ -1,0 +1,1 @@
+{"name":"@mukundakatta/agent-regression-lens","version":"0.1.0","description":"Detect regressions between baseline and current AI agent runs.","type":"module","exports":"./src/index.js","files":["src","README.md"],"license":"MIT","keywords":["ai","agent","evals","regression","observability"]}
