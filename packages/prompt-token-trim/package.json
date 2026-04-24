@@ -1,0 +1,1 @@
+{"name":"@mukundakatta/prompt-token-trim","version":"0.1.0","description":"Trim prompt messages to fit a token budget while preserving priority.","type":"module","exports":"./src/index.js","files":["src","README.md"],"license":"MIT","keywords":["ai","llm","agents","rag","evals"]}

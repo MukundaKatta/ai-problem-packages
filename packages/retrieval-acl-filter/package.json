@@ -1,0 +1,1 @@
+{"name":"@mukundakatta/retrieval-acl-filter","version":"0.1.0","description":"Enforce document ACLs after retrieval and before prompting.","type":"module","exports":"./src/index.js","files":["src","README.md"],"license":"MIT","keywords":["ai","llm","agents","rag","evals"]}

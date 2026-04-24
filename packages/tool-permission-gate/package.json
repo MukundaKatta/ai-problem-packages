@@ -1,0 +1,1 @@
+{"name":"@mukundakatta/tool-permission-gate","version":"0.1.0","description":"Policy-check agent tool calls before execution.","type":"module","exports":"./src/index.js","files":["src","README.md"],"license":"MIT","keywords":["ai","llm","agents","rag","evals"]}

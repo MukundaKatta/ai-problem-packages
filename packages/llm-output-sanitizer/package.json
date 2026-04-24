@@ -1,0 +1,1 @@
+{"name":"@mukundakatta/llm-output-sanitizer","version":"0.1.0","description":"Sanitize LLM outputs before rendering, SQL, shell, or markdown sinks.","type":"module","exports":"./src/index.js","files":["src","README.md"],"license":"MIT","keywords":["ai","llm","agents","rag","evals"]}

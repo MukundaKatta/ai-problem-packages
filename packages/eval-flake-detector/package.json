@@ -1,0 +1,1 @@
+{"name":"@mukundakatta/eval-flake-detector","version":"0.1.0","description":"Detect flaky LLM eval cases across repeated runs.","type":"module","exports":"./src/index.js","files":["src","README.md"],"license":"MIT","keywords":["ai","llm","agents","rag","evals"]}

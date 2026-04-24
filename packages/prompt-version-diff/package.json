@@ -1,0 +1,1 @@
+{"name":"@mukundakatta/prompt-version-diff","version":"0.1.0","description":"Diff prompt templates and flag risky instruction changes.","type":"module","exports":"./src/index.js","files":["src","README.md"],"license":"MIT","keywords":["ai","llm","agents","rag","evals"]}

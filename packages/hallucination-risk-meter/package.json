@@ -1,0 +1,1 @@
+{"name":"@mukundakatta/hallucination-risk-meter","version":"0.1.0","description":"Estimate hallucination risk from answer, context, citations, and uncertainty language.","type":"module","exports":"./src/index.js","files":["src","README.md"],"license":"MIT","keywords":["ai","llm","agents","rag","evals"]}

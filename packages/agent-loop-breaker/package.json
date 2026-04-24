@@ -1,0 +1,1 @@
+{"name":"@mukundakatta/agent-loop-breaker","version":"0.1.0","description":"Detect repeated agent steps and stop runaway loops.","type":"module","exports":"./src/index.js","files":["src","README.md"],"license":"MIT","keywords":["ai","llm","agents","rag","evals"]}

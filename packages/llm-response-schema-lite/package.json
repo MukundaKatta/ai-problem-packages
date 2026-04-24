@@ -1,0 +1,1 @@
+{"name":"@mukundakatta/llm-response-schema-lite","version":"0.1.0","description":"Tiny schema validator for structured LLM responses.","type":"module","exports":"./src/index.js","files":["src","README.md"],"license":"MIT","keywords":["ai","llm","agents","rag","evals"]}

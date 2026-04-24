@@ -1,0 +1,1 @@
+{"name":"@mukundakatta/ai-supply-chain-manifest","version":"0.1.0","description":"Build and validate lightweight AI model/data/tool manifests.","type":"module","exports":"./src/index.js","files":["src","README.md"],"license":"MIT","keywords":["ai","llm","agents","rag","evals"]}

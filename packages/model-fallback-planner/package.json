@@ -1,0 +1,1 @@
+{"name":"@mukundakatta/model-fallback-planner","version":"0.1.0","description":"Plan model fallback chains from capability, cost, and health data.","type":"module","exports":"./src/index.js","files":["src","README.md"],"license":"MIT","keywords":["ai","llm","agents","rag","evals"]}

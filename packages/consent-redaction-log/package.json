@@ -1,0 +1,1 @@
+{"name":"@mukundakatta/consent-redaction-log","version":"0.1.0","description":"Record consent-aware redactions for privacy review trails.","type":"module","exports":"./src/index.js","files":["src","README.md"],"license":"MIT","keywords":["ai","llm","agents","rag","evals"]}

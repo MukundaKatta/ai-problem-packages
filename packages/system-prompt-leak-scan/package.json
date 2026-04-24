@@ -1,0 +1,1 @@
+{"name":"@mukundakatta/system-prompt-leak-scan","version":"0.1.0","description":"Detect system prompt leakage in model outputs.","type":"module","exports":"./src/index.js","files":["src","README.md"],"license":"MIT","keywords":["ai","llm","agents","rag","evals"]}

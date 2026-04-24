@@ -1,0 +1,1 @@
+{"name":"@mukundakatta/context-window-packer","version":"0.1.0","description":"Pack context chunks into a budget by relevance and priority.","type":"module","exports":"./src/index.js","files":["src","README.md"],"license":"MIT","keywords":["ai","llm","agents","rag","evals"]}

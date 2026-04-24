@@ -1,0 +1,1 @@
+{"name":"@mukundakatta/llm-trace-sampler","version":"0.1.0","description":"Sample LLM traces by risk, errors, latency, and deterministic ids.","type":"module","exports":"./src/index.js","files":["src","README.md"],"license":"MIT","keywords":["ai","llm","agents","rag","evals"]}

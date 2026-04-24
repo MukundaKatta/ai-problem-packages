@@ -1,0 +1,1 @@
+{"name":"@mukundakatta/citation-integrity-check","version":"0.1.0","description":"Verify answer citations refer to supplied source ids.","type":"module","exports":"./src/index.js","files":["src","README.md"],"license":"MIT","keywords":["ai","llm","agents","rag","evals"]}
