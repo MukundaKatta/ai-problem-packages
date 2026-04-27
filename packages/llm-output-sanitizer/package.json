@@ -1,1 +1,28 @@
-{"name":"@mukundakatta/llm-output-sanitizer","version":"0.1.0","description":"Sanitize LLM outputs before rendering, SQL, shell, or markdown sinks.","type":"module","exports":"./src/index.js","files":["src","README.md"],"license":"MIT","keywords":["ai","llm","agents","rag","evals"]}
+{
+  "name": "@mukundakatta/llm-output-sanitizer",
+  "version": "0.1.0",
+  "description": "Sanitize LLM outputs before rendering, SQL, shell, or markdown sinks.",
+  "type": "module",
+  "exports": "./src/index.js",
+  "files": [
+    "src",
+    "README.md"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "ai",
+    "llm",
+    "agents",
+    "rag",
+    "evals"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MukundaKatta/ai-problem-packages.git",
+    "directory": "packages/llm-output-sanitizer"
+  },
+  "bugs": {
+    "url": "https://github.com/MukundaKatta/ai-problem-packages/issues"
+  },
+  "homepage": "https://github.com/MukundaKatta/ai-problem-packages/tree/main/packages/llm-output-sanitizer#readme"
+}

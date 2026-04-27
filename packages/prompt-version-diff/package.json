@@ -1,1 +1,28 @@
-{"name":"@mukundakatta/prompt-version-diff","version":"0.1.0","description":"Diff prompt templates and flag risky instruction changes.","type":"module","exports":"./src/index.js","files":["src","README.md"],"license":"MIT","keywords":["ai","llm","agents","rag","evals"]}
+{
+  "name": "@mukundakatta/prompt-version-diff",
+  "version": "0.1.0",
+  "description": "Diff prompt templates and flag risky instruction changes.",
+  "type": "module",
+  "exports": "./src/index.js",
+  "files": [
+    "src",
+    "README.md"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "ai",
+    "llm",
+    "agents",
+    "rag",
+    "evals"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MukundaKatta/ai-problem-packages.git",
+    "directory": "packages/prompt-version-diff"
+  },
+  "bugs": {
+    "url": "https://github.com/MukundaKatta/ai-problem-packages/issues"
+  },
+  "homepage": "https://github.com/MukundaKatta/ai-problem-packages/tree/main/packages/prompt-version-diff#readme"
+}

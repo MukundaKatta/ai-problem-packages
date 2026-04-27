@@ -1,1 +1,28 @@
-{"name":"@mukundakatta/rag-staleness-auditor","version":"0.1.0","description":"Find stale RAG chunks by age, version, and freshness requirements.","type":"module","exports":"./src/index.js","files":["src","README.md"],"license":"MIT","keywords":["ai","llm","agents","rag","evals"]}
+{
+  "name": "@mukundakatta/rag-staleness-auditor",
+  "version": "0.1.0",
+  "description": "Find stale RAG chunks by age, version, and freshness requirements.",
+  "type": "module",
+  "exports": "./src/index.js",
+  "files": [
+    "src",
+    "README.md"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "ai",
+    "llm",
+    "agents",
+    "rag",
+    "evals"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MukundaKatta/ai-problem-packages.git",
+    "directory": "packages/rag-staleness-auditor"
+  },
+  "bugs": {
+    "url": "https://github.com/MukundaKatta/ai-problem-packages/issues"
+  },
+  "homepage": "https://github.com/MukundaKatta/ai-problem-packages/tree/main/packages/rag-staleness-auditor#readme"
+}

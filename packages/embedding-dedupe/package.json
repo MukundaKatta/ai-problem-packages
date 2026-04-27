@@ -1,1 +1,28 @@
-{"name":"@mukundakatta/embedding-dedupe","version":"0.1.0","description":"Deduplicate near-identical embedding records by cosine similarity.","type":"module","exports":"./src/index.js","files":["src","README.md"],"license":"MIT","keywords":["ai","llm","agents","rag","evals"]}
+{
+  "name": "@mukundakatta/embedding-dedupe",
+  "version": "0.1.0",
+  "description": "Deduplicate near-identical embedding records by cosine similarity.",
+  "type": "module",
+  "exports": "./src/index.js",
+  "files": [
+    "src",
+    "README.md"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "ai",
+    "llm",
+    "agents",
+    "rag",
+    "evals"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MukundaKatta/ai-problem-packages.git",
+    "directory": "packages/embedding-dedupe"
+  },
+  "bugs": {
+    "url": "https://github.com/MukundaKatta/ai-problem-packages/issues"
+  },
+  "homepage": "https://github.com/MukundaKatta/ai-problem-packages/tree/main/packages/embedding-dedupe#readme"
+}

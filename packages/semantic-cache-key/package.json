@@ -1,2 +1,28 @@
-{"name":"@mukundakatta/semantic-cache-key","version":"0.1.0","description":"Stable semantic cache keys for AI prompts, tools, models, and retrieval context.","type":"module","exports":"./src/index.js","files":["src","README.md"],"license":"MIT","keywords":["ai","llm","cache","semantic-cache","prompts"]}
-
+{
+  "name": "@mukundakatta/semantic-cache-key",
+  "version": "0.1.0",
+  "description": "Stable semantic cache keys for AI prompts, tools, models, and retrieval context.",
+  "type": "module",
+  "exports": "./src/index.js",
+  "files": [
+    "src",
+    "README.md"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "ai",
+    "llm",
+    "cache",
+    "semantic-cache",
+    "prompts"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MukundaKatta/ai-problem-packages.git",
+    "directory": "packages/semantic-cache-key"
+  },
+  "bugs": {
+    "url": "https://github.com/MukundaKatta/ai-problem-packages/issues"
+  },
+  "homepage": "https://github.com/MukundaKatta/ai-problem-packages/tree/main/packages/semantic-cache-key#readme"
+}

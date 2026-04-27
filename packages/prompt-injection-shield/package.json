@@ -1,2 +1,27 @@
-{"name":"@mukundakatta/prompt-injection-shield","version":"0.1.0","description":"Prompt-injection risk scanner for untrusted AI context.","type":"module","exports":"./src/index.js","files":["src","README.md"],"license":"MIT","keywords":["ai","llm","prompt-injection","security"]}
-
+{
+  "name": "@mukundakatta/prompt-injection-shield",
+  "version": "0.1.0",
+  "description": "Prompt-injection risk scanner for untrusted AI context.",
+  "type": "module",
+  "exports": "./src/index.js",
+  "files": [
+    "src",
+    "README.md"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "ai",
+    "llm",
+    "prompt-injection",
+    "security"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MukundaKatta/ai-problem-packages.git",
+    "directory": "packages/prompt-injection-shield"
+  },
+  "bugs": {
+    "url": "https://github.com/MukundaKatta/ai-problem-packages/issues"
+  },
+  "homepage": "https://github.com/MukundaKatta/ai-problem-packages/tree/main/packages/prompt-injection-shield#readme"
+}

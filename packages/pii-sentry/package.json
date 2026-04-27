@@ -1,2 +1,28 @@
-{"name":"@mukundakatta/pii-sentry","version":"0.1.0","description":"Detect and redact PII and secret-like values before AI processing.","type":"module","exports":"./src/index.js","files":["src","README.md"],"license":"MIT","keywords":["ai","pii","redaction","privacy","security"]}
-
+{
+  "name": "@mukundakatta/pii-sentry",
+  "version": "0.1.0",
+  "description": "Detect and redact PII and secret-like values before AI processing.",
+  "type": "module",
+  "exports": "./src/index.js",
+  "files": [
+    "src",
+    "README.md"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "ai",
+    "pii",
+    "redaction",
+    "privacy",
+    "security"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MukundaKatta/ai-problem-packages.git",
+    "directory": "packages/pii-sentry"
+  },
+  "bugs": {
+    "url": "https://github.com/MukundaKatta/ai-problem-packages/issues"
+  },
+  "homepage": "https://github.com/MukundaKatta/ai-problem-packages/tree/main/packages/pii-sentry#readme"
+}

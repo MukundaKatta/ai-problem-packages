@@ -1,2 +1,28 @@
-{"name":"@mukundakatta/rag-quality-kit","version":"0.1.0","description":"Heuristic quality metrics for RAG retrieval and grounded answers.","type":"module","exports":"./src/index.js","files":["src","README.md"],"license":"MIT","keywords":["ai","rag","retrieval","evaluation","grounding"]}
-
+{
+  "name": "@mukundakatta/rag-quality-kit",
+  "version": "0.1.0",
+  "description": "Heuristic quality metrics for RAG retrieval and grounded answers.",
+  "type": "module",
+  "exports": "./src/index.js",
+  "files": [
+    "src",
+    "README.md"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "ai",
+    "rag",
+    "retrieval",
+    "evaluation",
+    "grounding"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MukundaKatta/ai-problem-packages.git",
+    "directory": "packages/rag-quality-kit"
+  },
+  "bugs": {
+    "url": "https://github.com/MukundaKatta/ai-problem-packages/issues"
+  },
+  "homepage": "https://github.com/MukundaKatta/ai-problem-packages/tree/main/packages/rag-quality-kit#readme"
+}

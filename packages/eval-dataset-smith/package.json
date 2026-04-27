@@ -1,2 +1,28 @@
-{"name":"@mukundakatta/eval-dataset-smith","version":"0.1.0","description":"Generate balanced eval cases from bugs, docs, examples, and policies.","type":"module","exports":"./src/index.js","files":["src","README.md"],"license":"MIT","keywords":["ai","evals","dataset","testing","llm"]}
-
+{
+  "name": "@mukundakatta/eval-dataset-smith",
+  "version": "0.1.0",
+  "description": "Generate balanced eval cases from bugs, docs, examples, and policies.",
+  "type": "module",
+  "exports": "./src/index.js",
+  "files": [
+    "src",
+    "README.md"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "ai",
+    "evals",
+    "dataset",
+    "testing",
+    "llm"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MukundaKatta/ai-problem-packages.git",
+    "directory": "packages/eval-dataset-smith"
+  },
+  "bugs": {
+    "url": "https://github.com/MukundaKatta/ai-problem-packages/issues"
+  },
+  "homepage": "https://github.com/MukundaKatta/ai-problem-packages/tree/main/packages/eval-dataset-smith#readme"
+}

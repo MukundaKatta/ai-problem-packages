@@ -1,2 +1,28 @@
-{"name":"@mukundakatta/tool-call-contracts","version":"0.1.0","description":"Validate LLM tool-call payloads with small JSON-like contracts.","type":"module","exports":"./src/index.js","files":["src","README.md"],"license":"MIT","keywords":["ai","agents","tools","validation","schema"]}
-
+{
+  "name": "@mukundakatta/tool-call-contracts",
+  "version": "0.1.0",
+  "description": "Validate LLM tool-call payloads with small JSON-like contracts.",
+  "type": "module",
+  "exports": "./src/index.js",
+  "files": [
+    "src",
+    "README.md"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "ai",
+    "agents",
+    "tools",
+    "validation",
+    "schema"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MukundaKatta/ai-problem-packages.git",
+    "directory": "packages/tool-call-contracts"
+  },
+  "bugs": {
+    "url": "https://github.com/MukundaKatta/ai-problem-packages/issues"
+  },
+  "homepage": "https://github.com/MukundaKatta/ai-problem-packages/tree/main/packages/tool-call-contracts#readme"
+}

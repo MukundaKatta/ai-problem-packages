@@ -1,1 +1,28 @@
-{"name":"@mukundakatta/llm-response-schema-lite","version":"0.1.0","description":"Tiny schema validator for structured LLM responses.","type":"module","exports":"./src/index.js","files":["src","README.md"],"license":"MIT","keywords":["ai","llm","agents","rag","evals"]}
+{
+  "name": "@mukundakatta/llm-response-schema-lite",
+  "version": "0.1.0",
+  "description": "Tiny schema validator for structured LLM responses.",
+  "type": "module",
+  "exports": "./src/index.js",
+  "files": [
+    "src",
+    "README.md"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "ai",
+    "llm",
+    "agents",
+    "rag",
+    "evals"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MukundaKatta/ai-problem-packages.git",
+    "directory": "packages/llm-response-schema-lite"
+  },
+  "bugs": {
+    "url": "https://github.com/MukundaKatta/ai-problem-packages/issues"
+  },
+  "homepage": "https://github.com/MukundaKatta/ai-problem-packages/tree/main/packages/llm-response-schema-lite#readme"
+}

@@ -1,2 +1,28 @@
-{"name":"@mukundakatta/model-router-policy","version":"0.1.0","description":"Policy-based model routing by capability, cost, latency, and privacy.","type":"module","exports":"./src/index.js","files":["src","README.md"],"license":"MIT","keywords":["ai","llm","routing","cost","policy"]}
-
+{
+  "name": "@mukundakatta/model-router-policy",
+  "version": "0.1.0",
+  "description": "Policy-based model routing by capability, cost, latency, and privacy.",
+  "type": "module",
+  "exports": "./src/index.js",
+  "files": [
+    "src",
+    "README.md"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "ai",
+    "llm",
+    "routing",
+    "cost",
+    "policy"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MukundaKatta/ai-problem-packages.git",
+    "directory": "packages/model-router-policy"
+  },
+  "bugs": {
+    "url": "https://github.com/MukundaKatta/ai-problem-packages/issues"
+  },
+  "homepage": "https://github.com/MukundaKatta/ai-problem-packages/tree/main/packages/model-router-policy#readme"
+}
