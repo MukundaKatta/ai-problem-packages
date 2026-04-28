@@ -1,0 +1,30 @@
+{
+  "name": "@mukundakatta/openai-responses-testkit",
+  "version": "0.1.0",
+  "description": "Zero-dependency helpers for testing OpenAI Responses API outputs, streams, and tool calls.",
+  "type": "module",
+  "exports": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "files": [
+    "src",
+    "README.md"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "openai",
+    "responses-api",
+    "testing",
+    "tool-calls",
+    "streaming",
+    "llm"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MukundaKatta/ai-problem-packages.git",
+    "directory": "packages/openai-responses-testkit"
+  },
+  "bugs": {
+    "url": "https://github.com/MukundaKatta/ai-problem-packages/issues"
+  },
+  "homepage": "https://github.com/MukundaKatta/ai-problem-packages/tree/main/packages/openai-responses-testkit#readme"
+}

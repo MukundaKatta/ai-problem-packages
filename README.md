@@ -34,3 +34,4 @@ Zero-dependency npm packages for common AI engineering problems:
 - `@mukundakatta/jailbreak-corpus-mini`: Small local jailbreak and prompt-injection fixture set for tests.
 - `@mukundakatta/ai-supply-chain-manifest`: Build and validate lightweight AI model/data/tool manifests.
 - `@mukundakatta/llm-trace-sampler`: Sample LLM traces by risk, errors, latency, and deterministic ids.
+- `@mukundakatta/openai-responses-testkit`: Test OpenAI Responses API outputs, streams, and tool calls with snapshot-safe helpers.

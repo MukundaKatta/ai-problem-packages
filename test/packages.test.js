@@ -99,6 +99,7 @@ import { packContext } from "../packages/context-window-packer/src/index.js";
 import { getJailbreakFixtures } from "../packages/jailbreak-corpus-mini/src/index.js";
 import { buildManifest, validateManifest } from "../packages/ai-supply-chain-manifest/src/index.js";
 import { shouldSampleTrace } from "../packages/llm-trace-sampler/src/index.js";
+import { assertNoRefusal, assertResponseIncludesText, assertStreamCompleted, assertToolCalled, collectResponseText, collectStream, extractToolCalls, redactResponseSnapshot } from "../packages/openai-responses-testkit/src/index.js";
 
 test("twenty additional ai problem packages work", () => {
   assert.equal(sanitizeOutput("<script>x</script>").safe, false);
@@ -124,3 +125,64 @@ test("twenty additional ai problem packages work", () => {
   assert.equal(shouldSampleTrace({ error: true }).sample, true);
 });
 
+test("openai responses testkit extracts text, streams, tools, and snapshots", () => {
+  const response = {
+    id: "resp_123",
+    created_at: 1760000000,
+    usage: { input_tokens: 10, output_tokens: 5 },
+    output: [
+      { type: "message", content: [{ type: "output_text", text: "Refunds are available within 30 days." }] },
+      { type: "function_call", id: "call_123", name: "search_docs", arguments: "{\"query\":\"refund\"}" }
+    ]
+  };
+
+  assert.equal(collectResponseText(response), "Refunds are available within 30 days.");
+  assert.equal(extractToolCalls(response)[0].arguments.query, "refund");
+  assert.equal(assertResponseIncludesText(response, /30 days/), true);
+  assert.equal(assertToolCalled(response, "search_docs", { query: "refund" }).name, "search_docs");
+
+  const stream = collectStream([
+    { type: "response.output_item.added", item: { id: "call_a", type: "function_call", name: "search_docs" } },
+    { type: "response.output_text.delta", delta: "Hello" },
+    { type: "response.output_text.delta", delta: " world" },
+    { type: "response.function_call_arguments.delta", item_id: "call_a", delta: "{\"q\"" },
+    { type: "response.function_call_arguments.delta", item_id: "call_a", delta: ":\"ai\"}" },
+    { type: "response.completed", response: { id: "resp_done" } }
+  ]);
+  assert.equal(stream.text, "Hello world");
+  assert.equal(stream.toolArguments[0].arguments.q, "ai");
+  assert.equal(stream.toolArguments[0].name, "search_docs");
+  assert.equal(stream.completed, true);
+  assert.equal(redactResponseSnapshot(response).id, "<redacted:id>");
+  assert.equal(assertNoRefusal(stream), true);
+  assert.equal(assertStreamCompleted(stream), true);
+});
+
+test("openai responses testkit handles done events and assertion failures", () => {
+  const stream = collectStream([
+    { type: "response.output_text.done", text: "Final text" },
+    { type: "response.function_call_arguments.done", call_id: "call_done", arguments: "{\"limit\":3}" },
+    { type: "response.completed", data: { id: "resp_done" } }
+  ]);
+
+  assert.equal(stream.text, "Final text");
+  assert.equal(stream.toolArguments[0].arguments.limit, 3);
+  assert.equal(assertStreamCompleted(stream), true);
+
+  assert.throws(() => assertNoRefusal({ refusal: "cannot comply" }), /Expected no refusal/);
+  assert.throws(() => assertStreamCompleted({ completed: false, failed: false, eventTypes: ["response.created"], errors: [] }), /Expected stream to complete/);
+  assert.throws(() => assertStreamCompleted({ completed: true, failed: true, eventTypes: ["error"], errors: [{ message: "bad" }] }), /Expected stream not to fail/);
+
+  const redacted = redactResponseSnapshot({
+    nested: {
+      event_id: "evt_123",
+      created: 1760000000,
+      usage: { total_tokens: 10 },
+      authorization: "Bearer secret"
+    }
+  });
+  assert.equal(redacted.nested.event_id, "<redacted:id>");
+  assert.equal(redacted.nested.created, "<redacted:timestamp>");
+  assert.equal(redacted.nested.usage, "<redacted:usage>");
+  assert.equal(redacted.nested.authorization, "<redacted:metadata>");
+});
